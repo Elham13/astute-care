@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AstuteCare</title>
+    <meta name="description" content="A set of morphing shape overlays with SVG" />
+    <meta name="keywords" content="shape, SVG, morphing, web development, web design, javascript" />
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400|Pompiere"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script>document.documentElement.className = "js";</script>
+  </head>
+  
+<!-- PreLoader -->
+  <div class="loader">
+    <span style="--i: 1"></span>
+    <span style="--i: 2"></span>
+    <span style="--i: 3"></span>
+    <span style="--i: 4"></span>
+    <span style="--i: 5"></span>
+    <span style="--i: 6"></span>
+    <span style="--i: 7"></span>
+    <span style="--i: 8"></span>
+    <span style="--i: 9"></span>
+    <span style="--i: 10"></span>
+</div>
+<!-- PreLoader -->
+
+  <body>
+    <div class="content">
+      <!-- Hamburger lines -->
+      <div class="hamburger">
+        <div class="hamburger__line hamburger__line--01">
+          <div class="hamburger__line-in hamburger__line-in--01"></div>
+        </div>
+        <div class="hamburger__line hamburger__line--02">
+          <div class="hamburger__line-in hamburger__line-in--02"></div>
+        </div>
+        <div class="hamburger__line hamburger__line--03">
+          <div class="hamburger__line-in hamburger__line-in--03"></div>
+        </div>
+        <div class="hamburger__line hamburger__line--cross01">
+          <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+        </div>
+        <div class="hamburger__line hamburger__line--cross02">
+          <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+        </div>
+      </div>
+      <!-- Hamburger lines -->
+
+      <div class="demo-title">AstuteCare</div>
+
+      <!-- Links -->
+      <div class="global-menu">
+        <div>
+          <a class="global-menu__item" href="#">Website & Application Development</a>
+          <a class="global-menu__item" href="#">Astute Automation</a>
+          <a class="global-menu__item" href="#">Astute Suit</a>
+          <a class="global-menu__item" href="#">Astute Droid</a>
+        </div>
+      </div>
+      <!-- Links -->
+
+      <svg
+        class="shape-overlays"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <path class="shape-overlays__path"></path>
+        <path class="shape-overlays__path"></path>
+      </svg>
+	 </div>
+	 
+	 <div class="about">
+		 <h1>about</h1>
+	 </div>
+
+    <!-- tree js -->
+    <script src="./js/three.js"></script>
+    <!-- vanta-dots js for the background animation -->
+    <script src="./js/vanta-dots.js"></script>
+    <!-- demo, easings and demo4 js these files are for  -->
+    <script src="js/demo.js"></script>
+    <script src="js/easings.js"></script>
+    <script src="js/demo4.js"></script>
+    <!-- </main> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
